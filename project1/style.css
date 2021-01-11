@@ -13,7 +13,7 @@
 .navbar-nav li a
 {
     float: right;
-    color: #fff!important;
+    color: black!important;
 }
 
 .navbar-brand img
@@ -207,4 +207,89 @@ nav .fa-bars
 .subscribe h3, .subscribe p
 {
     color: #fff;
+}
+.subscribe .input-group
+{
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.subscribe .form-control
+{
+    border: none;
+    background: transparent;
+}
+.subscribe .form-control:focus
+{
+    box-shadow: none;
+    background: transparent;
+}
+.subscribe .input-group-append
+{
+    background-image: linear-gradient(to left, #1c03b5, #5c8bef);
+    border-radius: 30px;
+}
+.subscribe .input-group-text
+{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.subscribe .btn:focus
+{
+    box-shadow: none;
+}
+
+/*--------------------Foooter-----------------------*/
+#footer
+{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+
+.footer-logo
+{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#footer h1
+{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#footer p
+{
+    font-size: 12px;
+    text-align: left;
+}
+#footer .city
+{
+    margin-left: 37px;
+}
+#footer .fa
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+#footer hr
+{
+    margin-top: 10px;
+}
+#footer .fa-heart-o
+{
+    color:red;
+    font-size: 17px;
+}
+#footer .copyright
+{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
 }
